@@ -13,4 +13,7 @@ jobs:
       - run: cat ~/.bashrc
       - run:
           name: Check Python version
-          command: source ~/.bashrc && python --version
+          command: |
+              source ~/.bashrc
+              which pyenv
+              python --version
