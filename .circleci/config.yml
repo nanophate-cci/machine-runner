@@ -9,6 +9,7 @@ jobs:
     resource_class: nanophate-cci/gcp-e2-medium
     steps:
       - run: echo "Hi I'm on Runners!"
+      - run: whoami
       - run:
           name: Check Python version
           command: source ~/.bashrc && python --version
