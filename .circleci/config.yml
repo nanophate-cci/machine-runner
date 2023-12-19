@@ -11,6 +11,7 @@ jobs:
       - run: echo "Hi I'm on Runners!"
       - run: whoami
       - run: cat ~/.bashrc
+      - run: which pyenv
       - run:
           name: Check Python version
           command: |
