@@ -11,5 +11,4 @@ jobs:
       - run: echo "Hi I'm on Runners!"
       - run:
           name: Check Python version
-          command: python --version
-      - run: pyenv global 3.9.5
+          command: source ~/.bashrc && python --version
