@@ -9,7 +9,7 @@ jobs:
     resource_class: nanophate-cci/gcp-e2-medium
     steps:
       - run: echo "Hi I'm on Runners!"
-      - run: pyenv global 3.9.5
       - run:
           name: Check Python version
           command: python --version
+      - run: pyenv global 3.9.5
